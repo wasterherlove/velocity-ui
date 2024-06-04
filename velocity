@@ -290,14 +290,14 @@ repeat
          local ping = string.format('%.0f', game.Stats.Network.ServerStatsItem["Data Ping"]:GetValue())
          local uid = "1"
          local fpsValue = string.split(game.Stats.Workspace.Heartbeat:GetValueString(), ".")[1]
-         WaterMarkLabel.Text = 'eclipse.<font color="rgb(115, 100, 215)">.gay</font> - uid: <font color="rgb(115, 100, 215)">' .. uid .. '</font> / fps: <font color="rgb(115, 100, 215)">' .. fpsValue .. '</font> / ping: <font color="rgb(115, 100, 215)">' .. ping .. '</font> / time: <font color="rgb(115, 100, 215)">' .. time .. '</font>'
+         WaterMarkLabel.Text = 'enore.wtf |<font color="rgb(115, 100, 215)">.gay</font> - uid: <font color="rgb(115, 100, 215)">' .. uid .. '</font> / fps: <font color="rgb(115, 100, 215)">' .. fpsValue .. '</font> / ping: <font color="rgb(115, 100, 215)">' .. ping .. '</font> / time: <font color="rgb(115, 100, 215)">' .. time .. '</font>'
        end
     end)
     return Watermark
  end
  
  local library = {
-    Title = 'eclipse.<font color="rgb(115, 100, 215)">gay</font> || discord.gg/enore ',
+    Title = 'enore.wtf |<font color="rgb(130, 130, 255)">velocity leaked</font> || discord.gg/enore ',
     keybind = Enum.KeyCode.RightBracket,
     Watermark = createWatermark(),
        Colors = {
